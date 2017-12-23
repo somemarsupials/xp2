@@ -2,13 +2,20 @@
   "name": "xp2",
   "version": "0.0.0",
   "description": "a monochrome instagram clone",
+  "repository": "https://github.com/somemarsupials/xp2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "start": "node app/app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.3"
   }
 }
